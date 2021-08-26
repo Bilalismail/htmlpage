@@ -13,16 +13,19 @@
 .hero::after{
   content: "";
   position: absolute;
-  width: 150%;
-  height: 100%;
-  top: -30%;
-  left: -32%;
+  width: 160%;
+  height: 175%;
+  top: -110%;
+  left: -20%;
   z-index: -1;
   background:url(/Images/graph-viz.png),
   linear-gradient(90deg, #4E54C8 0%, #8F94FB 100%);
   transform: rotate(-15deg);
   mix-blend-mode: overlay;
   
+}
+.hero{
+  height: 800px;
 }
 img{
   height: 50px;
@@ -66,7 +69,7 @@ button {
   display: flex;
   font-size: 16px;
   line-height: 19.09px;
-  padding: 58px 87px 0px 130px;
+  padding: 58px 87px 120px 130px;
  /* top right bottom left */
   width: 600px;
 }
@@ -82,20 +85,20 @@ button {
   display: flex;
   flex-direction: column;
   padding-left: 131px;
-  padding-top: 105px;
+  padding-top: 80px;
 }
 .summary {
   display: flex;
+  padding-bottom: 200px;
 }
 .summary img {
-  position: relative;
-  top: -85px;
-  flex-direction: row;
+  position: absolute;
+  display: flex;
   width: 620.87px;
   height: 514.61px;
   transform: rotate(-15deg);
-  padding-left: 162px;
-  padding-top: 0px;
+  padding-left: 1000px;
+  padding-bottom: 100px;
 }
 .summary-text {
   width: 612px;
@@ -107,6 +110,7 @@ button {
   opacity: 0.9;
 }
 .summary-text img{
+  
   top: -10px;
   width: 1240px;
   height: 612px;
@@ -117,8 +121,8 @@ button {
   padding-top: 16px;
 }
 .client-text{
-  display: flex ;
-  padding-left: 373px;
+  
+  padding-top: 0px;
   font-family: SF Mono;
   font-size: 17px;
   line-height: 20px;
@@ -127,15 +131,19 @@ button {
   opacity: 0.5;
 }
 .client-logos{
-  display: flex;
+  
   height: 38.71px;
   padding-left: 100px;
   padding-top: 37px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 10px;
 }
+
 .client-logos img{
   width: 138px;
-  height: 37px;
-  padding-right: 74px;
+  height: 27px;
+
 }
 .solutions{
   height: 338px;
