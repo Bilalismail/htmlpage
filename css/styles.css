@@ -5,7 +5,7 @@
 }
 .hero{
   position: relative;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 
@@ -14,9 +14,9 @@
   content: "";
   position: absolute;
   width: 160%;
-  height: 175%;
+  height: 170%;
   top: -110%;
-  left: -20%;
+  left: -43%;
   z-index: -1;
   background:url(/Images/graph-viz.png),
   linear-gradient(90deg, #4E54C8 0%, #8F94FB 100%);
@@ -69,57 +69,113 @@ button {
   display: flex;
   font-size: 16px;
   line-height: 19.09px;
-  padding: 58px 87px 120px 130px;
+  padding: 58px 87px 0px 130px;
+  
  /* top right bottom left */
   width: 600px;
 }
 .navbar ul {
   display: flex;
+
   padding-left: 80px;
 }
 .navbar li {
   padding-top: 15px;
   padding-right: 24px;
 }
-.container-summary {
+
+
+
+
+.intro{
   display: flex;
-  flex-direction: column;
-  padding-left: 131px;
-  padding-top: 80px;
+  
+  padding-left: 130px;
+  
 }
-.summary {
-  display: flex;
-  padding-bottom: 200px;
+
+.text{
+  width: 630px;
 }
-.summary img {
-  position: absolute;
-  display: flex;
+.text h1{
+  padding-top: 128px;
+  font-family: SF Mono;
+font-size: 45px;
+line-height: 54px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+}
+
+.text p{
+  font-family: SF Mono;
+font-size: 15px;
+line-height: 152%;
+padding-top: 18px;
+padding-bottom: 18px;
+/* or 23px */
+
+
+color: #FFFFFF;
+
+opacity: 0.9;
+}
+.frag{
+  width: 500px;
+}
+.frag img{
+  padding-left: 300px;
   width: 620.87px;
   height: 514.61px;
-  transform: rotate(-15deg);
-  padding-left: 1000px;
-  padding-bottom: 100px;
-}
-.summary-text {
-  width: 612px;
-  padding-top: 16px;
-  font-family: SF Mono;
-  font-size: 15px;
-  line-height: 23px;
-  color: #ffffff;
-  opacity: 0.9;
-}
-.summary-text img{
+  top: -50px;
   
-  top: -10px;
-  width: 1240px;
-  height: 612px;
-  mix-blend-mode: overlay;
-  opacity: 0.2;
+  transform: rotate(-15deg);
 }
-.btn {
-  padding-top: 16px;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .client-text{
   
   padding-top: 0px;
